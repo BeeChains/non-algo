@@ -6,7 +6,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* Changed to flex-start to align items from the top */
     background: #2c3e50;  /* Dark background for contrast */
     font-family: Arial, sans-serif;
     color: white;
@@ -17,7 +17,8 @@ body, html {
     text-align: center;
     max-width: 800px;
     font-size: 0.8em;  /* Smaller text size */
-    margin: 30px; /* Add some margin to ensure it's not cut off */
+    margin-top: 50px; /* Add margin to move it down */
+    margin-bottom: 30px; /* Add some margin to ensure it's not cut off */
 }
 
 .introduction h2 {
