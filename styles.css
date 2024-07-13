@@ -7,7 +7,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Changed to flex-start to align items from the top */
-    background: #2c3e50;  /* Dark background for contrast */
+    background: #FF5733;  /* Dark background for contrast */
     font-family: Arial, sans-serif;
     color: white;
     overflow: auto; /* Ensure overflow content is visible */
