@@ -10,18 +10,19 @@ body, html {
     background: #2c3e50;  /* Dark background for contrast */
     font-family: Arial, sans-serif;
     color: white;
+    overflow: auto; /* Ensure overflow content is visible */
 }
 
 .introduction {
     text-align: center;
     max-width: 800px;
     font-size: 0.8em;  /* Smaller text size */
-    margin-bottom: 26px;
+    margin: 30px; /* Add some margin to ensure it's not cut off */
 }
 
 .introduction h2 {
     font-size: 1.2em;
-    margin-top: 7px;
+    margin-top: 20px;
 }
 
 .introduction p, .introduction ul {
@@ -42,6 +43,7 @@ body, html {
 
 .mantra-container {
     text-align: center;
+    margin-top: 20px; /* Add margin to ensure it's separated from the introduction */
 }
 
 .mantra-list {
